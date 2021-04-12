@@ -70,8 +70,9 @@
 
     } else if($_SESSION['page'] == 'battle') {
 
-        $page = new View(__DIR__.'/view/templates/' . $_SESSION['page'] . ".html");
-        //$page->content = str_replace("{username}", $_POST['login'], $page->content);
+        $page = new View(__DIR__.'/view/templates/' . $_SESSION['page'] . ".tpl");
+        $page->content = str_replace("{username}", $login, $page->content);
+        $page->content = str_replace("{userimgurl}", $photo, $page->content);
 
     } else {
 

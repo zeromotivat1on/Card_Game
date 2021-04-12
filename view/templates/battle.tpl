@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="styles/main_objs.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/battle.css">
 
 </head>
 
@@ -19,7 +20,19 @@
 
         <div class="opponent_side">
 
+            <div class="player_info">
 
+                <span class="player_login">{username}</span>
+                <img class="battle_user_image" src='{userimgurl}'>
+
+            </div>
+
+
+            <div class="player_cards">
+
+
+
+            </div>
 
         </div>
 
@@ -33,7 +46,7 @@
 
             <div class="player_board">
             
-            
+
 
             </div>
 
@@ -41,11 +54,25 @@
 
         <div class="player_side">
 
-            <div class="buttons">
+            <div class="player_info">
 
-                <input class="goto_userinfo_button button" name="goto_userinfo_button" type="submit" value="Leave">
-    
+                <span class="player_login">{username}</span>
+                <img class="battle_user_image" src='{userimgurl}'>
+
             </div>
+
+            <div class="player_cards">
+
+
+
+            </div>
+
+        </div>
+
+
+        <div class="buttons battle_buttons">
+
+            <input class="goto_userinfo_button button" name="goto_userinfo_button" type="submit" value="Leave">
 
         </div>
 

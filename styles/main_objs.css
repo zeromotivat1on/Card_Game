@@ -128,12 +128,12 @@ form > input, .passwords > input {
 
 .goto_main_button {
 
-    background-color: rgb(70, 0, 135);
+    background-color: rgb(5, 135, 0);
 }
 
 .goto_main_button:hover {
 
-    background-color: rgb(100, 25, 170);
+    background-color: rgb(5, 205, 0);
 }
 
 .signout_button {

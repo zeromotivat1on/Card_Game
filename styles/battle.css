@@ -1,0 +1,37 @@
+.opponent_side, .player_side {
+
+    display: flex;
+    flex-flow: row;
+
+    height: 20vh;
+    background-color: aqua;
+}
+
+.board {
+
+    height: 55vh;
+    background-color: salmon;
+}
+
+.battle_buttons {
+
+    height: 5vh;
+    background-color: gray;
+}
+
+.player_info {
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: sandybrown;
+    width: 20%;
+}
+
+.battle_user_image {
+
+    width: 100px;
+    height: 150px;
+}
