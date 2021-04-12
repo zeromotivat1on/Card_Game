@@ -17,6 +17,7 @@
     <form id='log_form' class="loggedin_form" method="post">
 
         <span class="welcome">Welcome home, {username}!</span>
+        <img class="user_image" src='{imgurl}'>
 
         <div class="buttons">
     

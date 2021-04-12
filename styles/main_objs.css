@@ -205,3 +205,10 @@ form > input, .passwords > input {
     border-radius: 5px;
     background: none;
 }
+
+.user_image {
+
+    height: 300px;
+    margin-bottom: 10px;
+
+}

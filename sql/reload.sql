@@ -1,3 +1,5 @@
+USE card_game;
+
 drop table users;
 
-source db/db.sql;
+source sql/db.sql;

@@ -9,7 +9,6 @@
         $table_password = $conn->connection->query($sql);
         $fetch = $table_password->fetch(PDO::FETCH_ASSOC);
         $table_password = $fetch['password'];
-        $_SESSION['status'] = $fetch['status'];
 
         if($table_password != $password) {
 
