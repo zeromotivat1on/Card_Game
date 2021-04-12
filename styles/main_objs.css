@@ -1,0 +1,195 @@
+html {
+
+    height: 100%;
+    width: 100%;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(130deg, rgb(10, 0, 75) 0%, rgb(65, 15, 105) 80%);
+}
+
+span {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    margin-top: 5px;
+    padding-left: 3px;
+
+    text-align: center;
+}
+
+.main_form {
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 220px;
+
+    background: rgb(0, 0, 0);
+    color: whitesmoke;
+
+    padding: 20px;
+    margin: auto;
+
+    margin-top: 150px;
+
+    border-radius: 5px;
+}
+
+.buttons {
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.button {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: whitesmoke;
+
+    transition: font-size 0.3s;
+
+    border: 0;
+
+    border-radius: 5px;
+
+    padding: 5px;
+
+    margin-top: 5px;
+
+    font-size: 15px;
+}
+
+.button:hover {
+
+    border: 0;
+
+    padding: 5px;
+
+    font-size: 20px;
+}
+
+form > input, .passwords > input {
+
+    background: rgb(70, 70, 70);
+    color: whitesmoke;
+    
+    border: 0;
+    border-radius: 5px;
+
+    margin: 5px 0;
+}
+
+.remindpswd_button {
+
+    background-color: rgb(110, 0, 80);
+}
+
+.remindpswd_button:hover {
+
+    background-color: rgb(165, 0, 120);
+}
+
+.signin_button {
+
+    background-color: rgb(15, 0, 110);
+}
+
+.signin_button:hover {
+
+    background-color: rgb(20, 0, 170);
+}
+
+.signup_button {
+
+    background: rgb(65, 15, 105);
+}
+
+.signup_button:hover {
+
+    background: rgb(100, 0, 185);
+}
+
+.clear_button {
+
+    background-color: rgb(135, 0, 0);
+}
+
+.clear_button:hover {
+
+    background-color: rgb(180, 35, 35);
+}
+
+.goto_main_button {
+
+    background-color: rgb(70, 0, 135);
+}
+
+.goto_main_button:hover {
+
+    background-color: rgb(100, 25, 170);
+}
+
+.signout_button {
+
+    background-color: rgb(0, 100, 90);
+}
+
+.signout_button:hover {
+
+    background-color: rgb(0, 145, 130);
+}
+
+.battle_button {
+
+    background-color: rgb(170, 15, 15);
+}
+
+.battle_button:hover {
+
+    background-color: rgb(225, 10, 10);
+}
+
+.cards_button {
+
+    background-color: rgb(195, 170, 0);
+}
+
+.cards_button:hover {
+    
+    background-color: rgb(230, 200, 0);
+}
+
+.goto_userinfo_button {
+
+    background-color: rgb(0, 165, 165);
+    width: 200px;
+    align-self: center;
+}
+
+.goto_userinfo_button:hover {
+
+    background-color: rgb(0, 210, 210);
+}
+
+.main_text {
+
+    margin: 0;
+}
+
+.hero_img {
+
+    width: 300px;
+    height: 350px;
+
+    padding: 5px;
+
+    border-radius: 5px;
+    background: lightgray;
+}

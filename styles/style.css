@@ -1,0 +1,57 @@
+.loggedin_form {
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 220px;
+
+    background: rgb(0, 0, 0);
+    color: whitesmoke;
+
+    padding: 20px;
+    margin: auto;
+
+    margin-top: 150px;
+
+    border-radius: 5px;
+}
+
+#error, #table_error {
+
+    color: rgb(240, 16, 16);
+    text-align: center;
+}
+
+#success_add {
+
+    color:rgb(0, 221, 147);
+    text-align: center;
+}
+
+.welcome {
+
+    padding-bottom: 10px;
+}
+
+.hidden {
+
+    display: none;
+}
+
+.bestiary {
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 90%;
+
+    background: rgb(0, 0, 0);
+    color: whitesmoke;
+
+    padding: 20px;
+    margin: auto;
+
+    margin-top: 150px;
+
+    border-radius: 5px;
+}
