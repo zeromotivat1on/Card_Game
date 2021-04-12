@@ -183,20 +183,25 @@ form > input, .passwords > input {
     margin: 0;
 }
 
-.cards {
+.card {
 
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
+}
+
+.stats {
+
+    padding: 5px;
 }
 
 .hero_img {
 
     width: 300px;
-    height: 350px;
+    height: 300px;
 
     padding: 5px;
-    margin: 5px;
+    margin: 5px 0;
 
     border-radius: 5px;
-    background: whitesmoke;
+    background: red;
 }
