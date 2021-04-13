@@ -4,6 +4,8 @@
     flex-flow: row;
 
     height: 20vh;
+
+    opacity: 0.9;
 }
 
 .opponent_side {
@@ -20,12 +22,16 @@
 
     height: 55vh;
     background: linear-gradient(130deg, rgb(60, 20, 0) 0%, rgb(130, 55, 5) 80%);
+
+    opacity: 0.9;
 }
 
 .battle_buttons {
 
     height: 5vh;
     background: linear-gradient(130deg, rgb(10, 0, 75) 0%, rgb(65, 15, 105) 80%);
+
+    opacity: 0.9;
 }
 
 .player_info {
