@@ -1,7 +1,5 @@
 <?php
 
-    $_SESSION['table_error'] = '';
-
     function save_user($login, $password, $photo, $mail) {
 
         $conn = new DatabaseConnection('127.0.0.1', NULL, 'root', 'password', 'card_game');

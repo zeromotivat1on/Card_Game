@@ -72,7 +72,8 @@
 
         <div class="buttons battle_buttons">
 
-            <input class="goto_userinfo_button button" name="goto_userinfo_button" type="submit" value="Leave">
+            <input class="leave_button battle_button button" name="goto_userinfo_button" type="submit" value="Leave">
+            <input class="endturn_button battle_button button" name="endturn_button" type="submit" value="Turn">
 
         </div>
 

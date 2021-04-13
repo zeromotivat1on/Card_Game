@@ -4,19 +4,28 @@
     flex-flow: row;
 
     height: 20vh;
-    background-color: aqua;
+}
+
+.opponent_side {
+
+    background: linear-gradient(100deg, rgb(100, 0, 0) 0%, rgb(205, 0, 0) 80%);
+}
+
+.player_side {
+
+    background: linear-gradient(60deg, rgb(0, 0, 100) 0%, rgb(0, 0, 205) 80%);
 }
 
 .board {
 
     height: 55vh;
-    background-color: salmon;
+    background: linear-gradient(130deg, rgb(60, 20, 0) 0%, rgb(130, 55, 5) 80%);
 }
 
 .battle_buttons {
 
     height: 5vh;
-    background-color: gray;
+    background: linear-gradient(130deg, rgb(10, 0, 75) 0%, rgb(65, 15, 105) 80%);
 }
 
 .player_info {
@@ -26,7 +35,7 @@
     justify-content: center;
     align-items: center;
 
-    background-color: sandybrown;
+    background: linear-gradient(130deg, rgb(40, 40, 40) 0%, rgb(90, 90, 90) 80%);
     width: 20%;
 }
 
@@ -34,4 +43,36 @@
 
     width: 100px;
     height: 150px;
+}
+
+.battle_buttons {
+
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.battle_button {
+
+    width: 200px;
+}
+
+.leave_button {
+
+    background: rgb(160, 0, 0);
+}
+
+.leave_button:hover {
+
+    background: rgb(200, 0, 0);
+}
+
+.endturn_button {
+
+    background: rgb(40, 175, 0);
+}
+
+.endturn_button:hover {
+
+    background: rgb(50, 220, 0);
 }

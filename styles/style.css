@@ -5,6 +5,11 @@
     justify-content: center;
     width: 220px;
 
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
     background: rgb(0, 0, 0);
     color: whitesmoke;
 
@@ -14,6 +19,8 @@
     margin-top: 150px;
 
     border-radius: 5px;
+
+    opacity: 0.9;
 }
 
 #error, #table_error {
@@ -54,6 +61,8 @@
     margin-top: 40px;
 
     border-radius: 5px;
+
+    opacity: 0.95;
 }
 
 .bestiary_main_text {

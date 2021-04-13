@@ -46,6 +46,10 @@
 
         $_SESSION['page'] = 'battle';
 
+    } else if(isset($_POST['createdeck_button'])){
+
+        $_SESSION['page'] = 'createdeck';
+
     } else {
         
         $_SESSION['page'] = 'main';
@@ -58,10 +62,15 @@
     $password = crypt($password, 'salt');
     $sql = "SELECT login, photo FROM users WHERE login = ".$_SESSION['login'];
     $table_password = $conn->connection->query($sql);
-    $fetch = $table_password->fetch(PDO::FETCH_ASSOC);
-    $login = $fetch['login'];
-    $photo = $fetch['photo'];
-    
+
+    if($table_password) {
+
+        $fetch = $table_password->fetch(PDO::FETCH_ASSOC);
+        $login = $fetch['login'];
+        $photo = $fetch['photo'];
+
+    }
+
     if($_SESSION['page'] == 'user') {
 
         $page = new View(__DIR__.'/view/templates/' . $_SESSION['page'] . ".tpl");

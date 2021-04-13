@@ -16,12 +16,13 @@
     
     <form id='log_form' class="loggedin_form" method="post">
 
-        <span class="welcome">Welcome home, {username}!</span>
+        <span class="welcome">Welcome home, <b>{username}</b>!</span>
         <img class="user_image" src='{imgurl}'>
 
         <div class="buttons">
     
             <input class="battle_button button" name="battle_button" type="submit" value="Battle!"></input>
+            <input class="createdeck_button button" name="createdeck_button" type="submit" value="Deck"></input>
             <input class="cards_button button" name="cards_button" type="submit" value="View cards"></input>
             <input class="signout_button button" name="signout_button" type="submit" value="Sign out"></input>
 
